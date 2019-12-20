@@ -53,7 +53,6 @@
       echo $response;
     } 
 
-    
     if(stripos($body, "index") !== FALSE {
         index());
     } else if(stripos($body, "help") !== FALSE) {

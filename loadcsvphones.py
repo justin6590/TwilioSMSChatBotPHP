@@ -25,6 +25,7 @@ with open ('CR.csv', 'rb') as csvfile:
 	 phones_final = [phonescleanedstring[i:i+10] for i in range(0, len(phones_cleaned_string), 10)]
 	 print phones_final
 
+
 print phones_final
 
 messagessend(client, phones_final)
